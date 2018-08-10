@@ -17,7 +17,7 @@ public class MyConfiguration extends AbstractArangoConfiguration {
 
 	@Override
 	protected Builder arango() {
-		return new ArangoDB.Builder().host("192.168.10.9", 9000);
+		return new ArangoDB.Builder();
 	}
 
 	@Override
